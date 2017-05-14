@@ -12,7 +12,7 @@ import java.sql.SQLException;
 
 public class BaseDao {
 
-    private final static String url = "jdbc:mysql://localhost:3306/goodbye";    //数据库名
+    private final static String url = "jdbc:mysql://localhost:3306/goodbye?characterEncoding=UTF-8";    //数据库名
     private final static String user = "root";  //数据库登录用户名
     private final static String pw = "liuyuan.xing";    //数据库登录密码
 

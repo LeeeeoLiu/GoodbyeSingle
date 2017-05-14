@@ -20,14 +20,13 @@ public class RegisterDaoImpl extends BaseDao implements RegisterDao {
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
-
         try {
             conn = super.getConn();
             pst = conn.prepareStatement("insert into user values(null,?,?,?)");
             pst.setString(1, users.getUserName());
             pst.setString(2, users.getPassWord());
             pst.setString(3, users.getNiceName());
-
+            System.out.println(pst);
             pst.executeUpdate();
 
             return true;
@@ -38,8 +37,6 @@ public class RegisterDaoImpl extends BaseDao implements RegisterDao {
         } finally {
             super.close(conn, pst, rs);
         }
-
-
     }
 
 }
