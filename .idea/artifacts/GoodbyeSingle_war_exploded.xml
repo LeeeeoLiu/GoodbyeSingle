@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="GoodbyeSingle:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/GoodbyeSingle_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="GoodbyeSingle/web/Web2" />
+    </root>
+  </artifact>
+</component>
