@@ -11,6 +11,8 @@ import java.sql.SQLException;
 
 /**
  * Created by Leeeeo on 2017/5/28.
+ * <p>
+ * description  For the last step of signing up
  */
 public class UpdateFinalDaoImpl extends BaseDao implements UpdateFinalDao {
     public boolean isUpdateDao(User user) {

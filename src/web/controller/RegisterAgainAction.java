@@ -13,6 +13,8 @@ import java.io.IOException;
 
 /**
  * Created by Leeeeo on 2017/5/24.
+ *
+ * description  For the second step of signing up
  */
 public class RegisterAgainAction extends HttpServlet {
     public RegisterAgainAction() {

@@ -4,6 +4,8 @@ import domain.User;
 
 /**
  * Created by Leeeeo on 17/5/13.
+ *
+ * description  For the first step of signing up
  */
 public interface RegisterDao {
 

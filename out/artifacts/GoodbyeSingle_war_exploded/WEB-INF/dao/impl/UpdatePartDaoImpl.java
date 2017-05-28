@@ -11,6 +11,8 @@ import java.sql.SQLException;
 
 /**
  * Created by Leeeeo on 2017/5/24.
+ *
+ * description  For the second step of signing up
  */
 public class UpdatePartDaoImpl extends BaseDao implements UpdatePartDao {
 
