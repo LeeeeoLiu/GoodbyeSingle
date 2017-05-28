@@ -4,38 +4,30 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <servlet>
-        <description>This is the description of my J2EE component</description>
-        <display-name>This is the display name of my J2EE component</display-name>
         <servlet-name>LoginAction</servlet-name>
         <servlet-class>web.controller.LoginAction</servlet-class>
     </servlet>
     <servlet>
-        <description>This is the description of my J2EE component</description>
-        <display-name>This is the display name of my J2EE component</display-name>
         <servlet-name>RegisterAction</servlet-name>
         <servlet-class>web.controller.RegisterAction</servlet-class>
     </servlet>
     <servlet>
-        <description>This is the description of my J2EE component</description>
-        <display-name>This is the display name of my J2EE component</display-name>
         <servlet-name>RegisterAgainAction</servlet-name>
         <servlet-class>web.controller.RegisterAgainAction</servlet-class>
     </servlet>
     <servlet>
-        <description>This is the description of my J2EE component</description>
-        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>RegisterFinalAction</servlet-name>
+        <servlet-class>web.controller.RegisterFinalAction</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>TopicListAction</servlet-name>
         <servlet-class>web.controller.TopicListAction</servlet-class>
     </servlet>
     <servlet>
-        <description>This is the description of my J2EE component</description>
-        <display-name>This is the display name of my J2EE component</display-name>
         <servlet-name>TopicAction</servlet-name>
         <servlet-class>web.controller.TopicAction</servlet-class>
     </servlet>
     <servlet>
-        <description>This is the description of my J2EE component</description>
-        <display-name>This is the display name of my J2EE component</display-name>
         <servlet-name>DianpraiseAction</servlet-name>
         <servlet-class>web.controller.DianpraiseAction</servlet-class>
     </servlet>
@@ -56,6 +48,10 @@
     <servlet-mapping>
         <servlet-name>RegisterAgainAction</servlet-name>
         <url-pattern>/servlet/RegisterAgainAction</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterFinalAction</servlet-name>
+        <url-pattern>/servlet/RegisterFinalAction</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>TopicListAction</servlet-name>

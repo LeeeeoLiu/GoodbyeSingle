@@ -14,6 +14,8 @@ public class User {
     private String userEmail;
     private String userHomeTown;
     private String userPresentAddress;
+    private String userLike;
+    private String userLabel;
 
     public User() {
     }
@@ -38,6 +40,10 @@ public class User {
         return userRealName;
     }
 
+    public void setUserRealName(String realName) {
+        this.userRealName = realName;
+    }
+
     public String getUserTel() {
         return userTel;
     }
@@ -54,4 +60,51 @@ public class User {
         this.userPassWord = passWord;
     }
 
+    public String getUserIDCard() {
+        return userIDCard;
+    }
+
+    public void setUserIDCard(String idCard) {
+        this.userIDCard = idCard;
+    }
+
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserEmail(String email) {
+        this.userEmail = email;
+    }
+
+    public String getUserHomeTown() {
+        return userHomeTown;
+    }
+
+    public void setUserHomeTown(String homeTown) {
+        this.userHomeTown = homeTown;
+    }
+
+    public String getUserPresentAddress() {
+        return userPresentAddress;
+    }
+
+    public void setUserPresentAddress(String presentAddress) {
+        this.userPresentAddress = presentAddress;
+    }
+
+    public String getUserLike() {
+        return userLike;
+    }
+
+    public void setUserLike(String userLike) {
+        this.userLike = userLike;
+    }
+
+    public String getUserLabel() {
+        return userLabel;
+    }
+
+    public void setUserLabel(String userLabel) {
+        this.userLabel = userLabel;
+    }
 }

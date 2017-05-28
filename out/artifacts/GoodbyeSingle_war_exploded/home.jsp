@@ -27,6 +27,7 @@
 <body>
 
 <div class="main">
+    欢迎，@<c:if test="${! empty userLoginName}"> ${userLoginName}</c:if>
     <div class="texta">
         <form action="${pageContext.request.contextPath }/servlet/TopicAction" method="post">
             <textarea id="webtext" name="webtext" placeholder="说点什么吧..." name="webtext"></textarea>

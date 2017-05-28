@@ -1,5 +1,9 @@
 package web.controller;
 
+import dao.UpdatePartDao;
+import dao.impl.UpdatePartDaoImpl;
+import domain.User;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -31,29 +35,29 @@ public class RegisterAgainAction extends HttpServlet {
         String hometown = request.getParameter("user_hometown");
         String presentAddress = request.getParameter("user_present");
         HttpSession session = request.getSession(false);
-        if(session==null){
+        if (session == null) {
             //没有登录成功，跳转到登录页面
-            response.sendRedirect(request.getContextPath()+"/register.jsp");
+            response.sendRedirect(request.getContextPath() + "/register.jsp");
             return;
         }
-        String loginName = (String)session.getAttribute("userLoginName");
+        String loginName = (String) session.getAttribute("userLoginName");
 
         System.out.println(realName);
         System.out.println(loginName);
-//        User user = new User();
-//        user.setUserLoginName(loginName);
-//        user.setUserPassWord(password);
-//        user.setUserTel(telephone);
-//
-//        RegisterDao registerDao = new RegisterDaoImpl();
-//        boolean register = registerDao.isRegister(user);
-//
-//        if (register == true) {
-//            request.setAttribute("userLoginName", loginName);
-//            request.getRequestDispatcher("/register2.jsp").forward(request, response);
-//        } else {
-//            response.sendRedirect(request.getContextPath() + "/register.jsp");
-//        }
+        User user = new User();
+        user.setUserLoginName(loginName);
+        user.setUserRealName(realName);
+        user.setUserIDCard(idCard);
+        user.setUserEmail(email);
+        user.setUserHomeTown(hometown);
+        user.setUserPresentAddress(presentAddress);
+        UpdatePartDao updatePartDao = new UpdatePartDaoImpl();
+        boolean update = updatePartDao.isUpdateDao(user);
+        if (update == true) {
+            request.getRequestDispatcher("/register3.jsp").forward(request, response);
+        } else {
+            response.sendRedirect(request.getContextPath() + "/register2.jsp");
+        }
 
 
     }
