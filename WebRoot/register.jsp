@@ -6,12 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%
-    String path = request.getContextPath();
-    String basePath = request.getScheme() + "://"
-            + request.getServerName() + ":" + request.getServerPort()
-            + path + "/";
-%>
+<%@include file="common/header.jsp"%>
 
 <html>
 <head>
@@ -31,77 +26,6 @@
     <div id="js-pjax-loader-bar" class="pjax-loader-bar">
         <div class="progress"></div>
     </div>
-
-
-    <header class="site-header js-details-container Details" role="banner">
-        <div class="container-responsive">
-            <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage"
-               data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
-                <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1"
-                     viewBox="0 0 16 16" width="32">
-                    <path fill-rule="evenodd"
-                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                </svg>
-            </a>
-
-            <button class="btn-link float-right site-header-toggle js-details-target" type="button"
-                    aria-label="Toggle navigation">
-                <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16"
-                     width="18">
-                    <path fill-rule="evenodd"
-                          d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path>
-                </svg>
-            </button>
-
-            <div class="site-header-menu">
-                <nav class="site-header-nav">
-                    <a href="https://github.com/features" class="js-selected-navigation-item nav-item"
-                       data-ga-click="Header, click, Nav menu - item:features"
-                       data-selected-links="/features /features">
-                        Features
-                    </a> <a href="https://github.com/business" class="js-selected-navigation-item nav-item"
-                            data-ga-click="Header, click, Nav menu - item:business"
-                            data-selected-links="/business /business/security /business/customers /business">
-                    Business
-                </a> <a href="https://github.com/explore" class="js-selected-navigation-item nav-item"
-                        data-ga-click="Header, click, Nav menu - item:explore"
-                        data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
-                    Explore
-                </a> <a href="https://github.com/pricing" class="js-selected-navigation-item nav-item"
-                        data-ga-click="Header, click, Nav menu - item:pricing"
-                        data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
-                    Pricing
-                </a></nav>
-
-                <div class="site-header-actions">
-                    <div class="header-search   js-site-search" role="search">
-                        <!-- '"` --><!-- </textarea></xmp> -->
-                        <form accept-charset="UTF-8" action="https://github.com/search" class="js-site-search-form"
-                              data-unscoped-search-url="/search" method="get">
-                            <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓">
-                            </div>
-                            <label class="form-control header-search-wrapper js-chromeless-input-container">
-                                <a href="https://github.com/join" class="header-search-scope no-underline">/join</a>
-                                <input type="text" class="form-control header-search-input js-site-search-focus "
-                                       data-hotkey="s" name="q" value="" placeholder="Search GitHub"
-                                       aria-label="Search GitHub" data-unscoped-placeholder="Search GitHub"
-                                       data-scoped-placeholder="Search" autocapitalize="off">
-                                <input type="hidden" class="js-site-search-type-field" name="type">
-                            </label>
-                        </form>
-                    </div>
-
-
-                    <a class="text-bold site-header-link"
-                       href="https://github.com/login?return_to=%2Fjoin%3Fsource%3Dheader-home"
-                       data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
-                    <span class="text-gray">or</span>
-                    <a class="text-bold site-header-link" href="https://github.com/join?source=header"
-                       data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
-                </div>
-            </div>
-        </div>
-    </header>
 
 
 </div>
