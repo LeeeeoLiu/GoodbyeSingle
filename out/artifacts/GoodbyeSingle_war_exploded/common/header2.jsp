@@ -57,9 +57,9 @@
 
 
         <ul class="header-nav float-left" role="navigation">
-            <li class="header-nav-item"><a href="#" class="js-selected-navigation-item header-nav-link">Homepage</a></li>
-            <li class="header-nav-item"><a href="#" class="js-selected-navigation-item header-nav-link">Recomm</a></li>
-            <li class="header-nav-item"><a href="#" class="js-selected-navigation-item header-nav-link">Hunting</a></li>
+            <li class="header-nav-item"><a href="/homePage.jsp" class="js-selected-navigation-item header-nav-link">Homepage</a></li>
+            <li class="header-nav-item"><a href="/recomm.jsp" class="js-selected-navigation-item header-nav-link">Recomm</a></li>
+            <li class="header-nav-item"><a href="/mate.jsp" class="js-selected-navigation-item header-nav-link">Hunting</a></li>
             <li class="header-nav-item"><a href="#" class="js-selected-navigation-item header-nav-link">Dating</a></li>
         </ul>
 
@@ -68,7 +68,7 @@
             <li class="header-nav-item">
             </li>
             <li class="header-nav-item dropdown js-menu-container">
-                <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="#"
+                <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/info.jsp"
                    aria-label="Create new…" data-ga-click="Header, create new, icon:add">
                     Notifications
                 </a>
@@ -76,7 +76,7 @@
 
             <li class="header-nav-item dropdown js-menu-container">
                 <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target"
-                   href="#">Me
+                   href="/info.jsp">Me
                 </a>
             </li>
         </ul>

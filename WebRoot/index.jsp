@@ -13,7 +13,5 @@
   </head>
   <body>
   这是index页面
-  <a href="/register.jsp" class="alternate-action"
-     data-ga-click="User identification, survey skip">Sign up</a>
   </body>
 </html>

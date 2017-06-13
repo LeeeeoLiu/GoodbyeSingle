@@ -41,9 +41,9 @@
 
         <div class="site-header-menu">
             <nav class="site-header-nav">
-                <a href="#" class="js-selected-navigation-item nav-item">Homepage</a>
-                <a href="#" class="js-selected-navigation-item nav-item">Recomm</a>
-                <a href="#" class="js-selected-navigation-item nav-item">Hunting</a>
+                <a href="/homePage.jsp" class="js-selected-navigation-item nav-item">Homepage</a>
+                <a href="/recomm.jsp" class="js-selected-navigation-item nav-item">Recomm</a>
+                <a href="/mate.jsp" class="js-selected-navigation-item nav-item">Hunting</a>
                 <a href="#" class="js-selected-navigation-item nav-item">Dating</a>
                 <a href="#" class="js-selected-navigation-item nav-item">Examples</a>
                 <a href="#" class="js-selected-navigation-item nav-item">About Us</a>
@@ -70,10 +70,10 @@
 
 
                 <a class="text-bold site-header-link"
-                   href="https://github.com/login?return_to=%2Fjoin%3Fsource%3Dheader-home"
+                   href="/login.jsp"
                    data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
                 <span class="text-gray">or</span>
-                <a class="text-bold site-header-link" href="https://github.com/join?source=header"
+                <a class="text-bold site-header-link" href="/register.jsp"
                    data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
             </div>
         </div>
