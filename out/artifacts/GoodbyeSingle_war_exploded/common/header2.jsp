@@ -28,8 +28,6 @@
           type="text/css" rel="stylesheet">
     <link href="css/register2/site-305da239d9594c987edb45691bee8e64ab6e76c2649f5f82dc9eaa49b5e4ed50.css" type="text/css"
           rel="stylesheet">
-
-    <title>Title</title>
 </head>
 <body>
 <div class="header" role="banner">
