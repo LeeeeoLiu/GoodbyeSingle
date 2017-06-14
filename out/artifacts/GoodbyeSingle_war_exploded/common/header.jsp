@@ -45,8 +45,8 @@
                 <a href="/recomm.jsp" class="js-selected-navigation-item nav-item">Recomm</a>
                 <a href="/mate.jsp" class="js-selected-navigation-item nav-item">Hunting</a>
                 <a href="#" class="js-selected-navigation-item nav-item">Dating</a>
-                <a href="#" class="js-selected-navigation-item nav-item">Examples</a>
-                <a href="#" class="js-selected-navigation-item nav-item">About Us</a>
+                <a href="/lovestory.jsp" class="js-selected-navigation-item nav-item">Examples</a>
+                <a href="/about.jsp" class="js-selected-navigation-item nav-item">About Us</a>
 
             </nav>
 
