@@ -60,7 +60,7 @@
             <li class="header-nav-item"><a href="/homePage.jsp" class="js-selected-navigation-item header-nav-link">Homepage</a></li>
             <li class="header-nav-item"><a href="/recomm.jsp" class="js-selected-navigation-item header-nav-link">Recomm</a></li>
             <li class="header-nav-item"><a href="/mate.jsp" class="js-selected-navigation-item header-nav-link">Hunting</a></li>
-            <li class="header-nav-item"><a href="#" class="js-selected-navigation-item header-nav-link">Dating</a></li>
+            <li class="header-nav-item"><a href="/date.jsp" class="js-selected-navigation-item header-nav-link">Dating</a></li>
         </ul>
 
 
