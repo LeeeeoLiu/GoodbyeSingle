@@ -141,6 +141,16 @@
                 opacity: 1;
             }
         }
+
+        #nartab li {
+            border-bottom: dotted dodgerblue 3px;
+        }
+
+        #nartab {
+            line-height: 100px;
+            padding-left: 90px;
+            list-style-image: url(./images/heart1.jpg);
+        }
     </style>
 
 </head>
@@ -148,45 +158,45 @@
 
 <div class="row" style="width: 100%;display: block;">
     <div style="width: 20%;float: left;display: block;">
-        <ul style="line-height: 100px;padding-left: 90px;list-style-image: url(./images/heart1.jpg);">
-            <li><a href="javascript:funcShow(1)">Intro</a></li>
-            <li><a href="javascript:funcShow(2)">Followed</a></li>
-            <li><a href="javascript:funcShow(3)">Message</a></li>
-            <li><a href="javascript:funcShow(4)">History</a></li>
-            <li><a href="javascript:funcShow(5)">Notification</a></li>
+        <ul id="nartab">
+            <li><a href="javascript:funcShow(1)" id="intro">Intro</a></li>
+            <li><a href="javascript:funcShow(2)" id="followed">Followed</a></li>
+            <li><a href="javascript:funcShow(3)" id="message">Message</a></li>
+            <li><a href="javascript:funcShow(4)" id="history">History</a></li>
+            <li><a href="javascript:funcShow(5)" id="notification">Notification</a></li>
         </ul>
     </div>
     <div style="width:80%;float: left;border: 5px dashed CornflowerBlue;">
         <div id="div1" style="display:block;">
             <div>
-                <img src="images/women1.jpeg" style="margin: 50px;float: left;width: 20%">
+                <img src="images/Leeeeo.png" style="margin: 50px;float: left;width: 20%">
                 <button class="btn btn-default" type="submit"
-                        style="font-family:verdana;margin-top:10px;color:LightSeaGreen;background:Moccasin;border: hidden">
-                    <b>Edit</b></button>
+                        style="font-family:verdana;margin-top:10px;color:LightSeaGreen;background:Moccasin;border: hidden;  ">
+                    <b>Update</b></button>
                 <div style="float: left;margin-top: 50px;width: 64%;color:LightSeaGreen" class="form-group">
                     <label class="control-label" for="detail">Detail Introduction</label>
-                    <textarea class="form-control" rows="3" id="detail"></textarea>
+                    <textarea class="form-control" rows="3" id="detail">Thank you!3Q！Are you OK?</textarea>
                 </div>
             </div>
             <div class="form-group"
                  style="float: left;width: 90%;margin-left:50px;margin-right: 50px;color:LightSeaGreen">
                 <label class="control-label" for="living">Living Condition</label>
-                <textarea class="form-control" rows="3" id="living"></textarea>
+                <textarea class="form-control" rows="3" id="living">On the brink of death</textarea>
             </div>
             <div class="form-group"
                  style="float: left;width: 90%;margin-left:50px;margin-right: 50px;color:LightSeaGreen">
                 <label class="control-label" for="favorite">Favorite</label>
-                <textarea class="form-control" rows="3" id="favorite"></textarea>
+                <textarea class="form-control" rows="3" id="favorite">Sleep all the day</textarea>
             </div>
             <div class="form-group"
                  style="float: left;width: 90%;margin-left:50px;margin-right: 50px;color:LightSeaGreen">
                 <label class="control-label" for="experience">Experience</label>
-                <textarea class="form-control" rows="3" id="experience"></textarea>
+                <textarea class="form-control" rows="3" id="experience">A little</textarea>
             </div>
             <div class="form-group"
                  style="float: left;width: 90%;margin-left:50px;margin-right: 50px;color:LightSeaGreen">
                 <label class="control-label" for="criteria">Criteria</label>
-                <textarea class="form-control" rows="3" id="criteria"></textarea>
+                <textarea class="form-control" rows="3" id="criteria">First In First Out!</textarea>
             </div>
         </div>
         <div id="div2" style="display:none">
@@ -401,10 +411,10 @@
 
             </div>
         </div>
-        <div id="div3" style="display:none" >
-            <ul id="myTab" class="nav nav-tabs">
+        <div id="div3" style="display:none">
+            <ul id="myTab" class="nav nav-tabs" style="padding-left: 500px">
                 <li class="active">
-                    <a href="#friends" data-toggle="tab" >
+                    <a href="#friends" data-toggle="tab" style="background-color: cornflowerblue;color: white">
                         Friends
                     </a>
                 </li>
@@ -412,9 +422,9 @@
             </ul>
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade in active" id="friends">
-                    <ul style="padding-left: 30px">
+                    <ul style="padding-left: 70px">
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div class="friend_div">
                                 <img src="images/beauty1.png" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -426,13 +436,13 @@
                                 <div class="form-group" style="float: right">
                                     <label class="col-sm-10 control-label">2017.6.19</label>
                                     <div class="col-sm-10">
-                                        <p class="form-control-static" >newly 1</p>
+                                        <p class="form-control-static">newly 1</p>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div class="friend_div">
                                 <img src="images/beauty2.png" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -450,7 +460,7 @@
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div class="friend_div">
                                 <img src="images/women1.jpeg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -468,7 +478,7 @@
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div class="friend_div">
                                 <img src="images/beauty4.png" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -486,7 +496,7 @@
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div class="friend_div">
                                 <img src="images/beauty6.png" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -506,15 +516,15 @@
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="stranger">
-                    <ul style="padding-left: 30px">
+                    <ul style="padding-left: 70px">
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
-                                <img src="images/aboutus/Leeeeo.jpg" style="width: 100px;height: 100px;float: left"
+                            <div class="stranger_div">
+                                <img src="images/Leon.png" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
-                                    <label class="col-sm-5 control-label">Leeeeo</label>
+                                    <label class="col-sm-10 control-label">Leon</label>
                                     <div class="col-sm-10">
-                                        <p class="form-control-static">hi!my girl</p>
+                                        <p class="form-control-static">hi!JuJu my baby!</p>
                                     </div>
                                 </div>
                                 <div class="form-group" style="float: right">
@@ -526,7 +536,7 @@
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div  class="stranger_div">
                                 <img src="images/aboutus/1.jpg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -544,7 +554,7 @@
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div  class="stranger_div">
                                 <img src="images/aboutus/LokeZhou.jpg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -562,7 +572,7 @@
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div  class="stranger_div">
                                 <img src="images/men1.jpg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -580,7 +590,7 @@
                             </div>
                         </li>
                         <li>
-                            <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                            <div  class="stranger_div">
                                 <img src="images/men2.jpeg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -619,15 +629,16 @@
                                 <!-- Tab panes -->
                                 <div class="tab-content tabs">
                                     <div role="tabpanel" class="tab-pane fade in active" id="Section1">
-                                        <ul style="padding-left: 30px;">
+                                        <ul style="padding-left: 70px;">
                                             <li>
-                                                <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
-                                                    <img src="images/women1.jpeg" style="width: 100px;height: 100px;float: left"
+                                                <div style="width: 92%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                                                    <img src="images/beauty2.png"
+                                                         style="width: 100px;height: 100px;float: left"
                                                          class="img-circle">
                                                     <div class="form-group" style="float: left">
                                                         <label class="col-sm-10 control-label">Name:</label>
                                                         <div class="col-sm-10">
-                                                            <p class="form-control-static">Loke Zhou</p>
+                                                            <p class="form-control-static">Lily</p>
                                                         </div>
                                                     </div>
                                                     <div class="form-group" style="float: left">
@@ -639,7 +650,7 @@
                                                     <div class="form-group" style="float: left">
                                                         <label class="col-sm-10 control-label">Gender:</label>
                                                         <div class="col-sm-10">
-                                                            <p class="form-control-static">Male</p>
+                                                            <p class="form-control-static">Female</p>
                                                         </div>
                                                     </div>
                                                     <button type="button" class="btn btn-success">Have a look</button>
@@ -649,13 +660,14 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
-                                                    <img src="images/women1.jpeg" style="width: 100px;height: 100px;float: left"
+                                                <div style="width: 92%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                                                    <img src="images/beauty4.png"
+                                                         style="width: 100px;height: 100px;float: left"
                                                          class="img-circle">
                                                     <div class="form-group" style="float: left">
                                                         <label class="col-sm-10 control-label">Name:</label>
                                                         <div class="col-sm-10">
-                                                            <p class="form-control-static">Loke Zhou</p>
+                                                            <p class="form-control-static">kdf</p>
                                                         </div>
                                                     </div>
                                                     <div class="form-group" style="float: left">
@@ -667,91 +679,7 @@
                                                     <div class="form-group" style="float: left">
                                                         <label class="col-sm-10 control-label">Gender:</label>
                                                         <div class="col-sm-10">
-                                                            <p class="form-control-static">Male</p>
-                                                        </div>
-                                                    </div>
-                                                    <button type="button" class="btn btn-success">Have a look</button>
-
-                                                    <!-- Contextual button for informational alert messages -->
-                                                    <button type="button" class="btn btn-info">Chat</button>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
-                                                    <img src="images/women1.jpeg" style="width: 100px;height: 100px;float: left"
-                                                         class="img-circle">
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Name:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">Loke Zhou</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Age:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">18</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Gender:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">Male</p>
-                                                        </div>
-                                                    </div>
-                                                    <button type="button" class="btn btn-success">Have a look</button>
-
-                                                    <!-- Contextual button for informational alert messages -->
-                                                    <button type="button" class="btn btn-info">Chat</button>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
-                                                    <img src="images/women1.jpeg" style="width: 100px;height: 100px;float: left"
-                                                         class="img-circle">
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Name:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">Loke Zhou</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Age:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">18</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Gender:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">Male</p>
-                                                        </div>
-                                                    </div>
-                                                    <button type="button" class="btn btn-success">Have a look</button>
-
-                                                    <!-- Contextual button for informational alert messages -->
-                                                    <button type="button" class="btn btn-info">Chat</button>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
-                                                    <img src="images/women1.jpeg" style="width: 100px;height: 100px;float: left"
-                                                         class="img-circle">
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Name:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">Loke Zhou</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Age:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">18</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group" style="float: left">
-                                                        <label class="col-sm-10 control-label">Gender:</label>
-                                                        <div class="col-sm-10">
-                                                            <p class="form-control-static">Male</p>
+                                                            <p class="form-control-static">Female</p>
                                                         </div>
                                                     </div>
                                                     <button type="button" class="btn btn-success">Have a look</button>
@@ -763,27 +691,28 @@
                                         </ul>
                                     </div>
                                     <div role="tabpanel" class="tab-pane fade" id="Section2">
-                                        <ul style="padding-left: 30px">
+                                        <ul style="padding-left: 70px">
                                             <li>
-                                                <div style="width: 100%;border: dashed 1px hotpink;height: 100%;padding: 10px">
-                                                    <img src="images/women1.jpeg" style="width: 100px;height: 100px;float: left"
+                                                <div style="width: 92%;border: dashed 1px hotpink;height: 100%;padding: 10px">
+                                                    <img src="images/men1.jpg"
+                                                         style="width: 100px;height: 100px;float: left"
                                                          class="img-circle">
                                                     <div class="form-group" style="float: left">
                                                         <label class="col-sm-10 control-label">Name:</label>
                                                         <div class="col-sm-10">
-                                                            <p class="form-control-static">Leon Li</p>
+                                                            <p class="form-control-static">kudf</p>
                                                         </div>
                                                     </div>
                                                     <div class="form-group" style="float: left">
                                                         <label class="col-sm-10 control-label">Age:</label>
                                                         <div class="col-sm-10">
-                                                            <p class="form-control-static">17</p>
+                                                            <p class="form-control-static">unknown</p>
                                                         </div>
                                                     </div>
                                                     <div class="form-group" style="float: left">
                                                         <label class="col-sm-10 control-label">Gender:</label>
                                                         <div class="col-sm-10">
-                                                            <p class="form-control-static">Female</p>
+                                                            <p class="form-control-static">Male</p>
                                                         </div>
                                                     </div>
                                                     <h2>The user has recently visited you.</h2>
@@ -802,80 +731,35 @@
                 </div>
             </div>
         </div>
+
         <div id="div5" style="display:none">
-            <ul style="padding-left: 30px">
+            <ul style="padding-left: 70px">
                 <li>
                     <div class="form-group" style="float: left">
-                        <label class="col-sm-10 control-label">Welcome to join us!</label>
+                        <label class="col-sm-10 control-label" style="font-size: larger">Protect your privacy information!</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static">Welcome to join GoodByeSingle!You can find many friend
-                                here...</p>
+                            <p class="form-control-static">Please don't tell others about your true identity information...</p>
                         </div>
                     </div>
                     <div class="form-group" style="float: right">
-                        <label class="col-sm-10 control-label">2017.6.12</label>
+                        <label class="col-sm-10 control-label" style="font-size: larger">2017.6.12</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static">by LeeeeoLiu</p>
+                            <p class="form-control-static" style="font-size: larger">by LeeeeoLiu</p>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="form-group" style="float: left">
-                        <label class="col-sm-10 control-label">Welcome to join us!</label>
+                        <label class="col-sm-10 control-label" style="font-size: larger">Welcome to join us!</label>
                         <div class="col-sm-10">
                             <p class="form-control-static">Welcome to join GoodByeSingle!You can find many friend
                                 here...</p>
                         </div>
                     </div>
                     <div class="form-group" style="float: right">
-                        <label class="col-sm-10 control-label">2017.6.12</label>
+                        <label class="col-sm-10 control-label" style="font-size: larger">2017.6.12</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static">by LeeeeoLiu</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="form-group" style="float: left">
-                        <label class="col-sm-10 control-label">Welcome to join us!</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">Welcome to join GoodByeSingle!You can find many friend
-                                here...</p>
-                        </div>
-                    </div>
-                    <div class="form-group" style="float: right">
-                        <label class="col-sm-10 control-label">2017.6.12</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">by LeeeeoLiu</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="form-group" style="float: left">
-                        <label class="col-sm-10 control-label">Welcome to join us!</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">Welcome to join GoodByeSingle!You can find many friend
-                                here...</p>
-                        </div>
-                    </div>
-                    <div class="form-group" style="float: right">
-                        <label class="col-sm-10 control-label">2017.6.12</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">by LeeeeoLiu</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="form-group" style="float: left">
-                        <label class="col-sm-10 control-label">Welcome to join us!</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">Welcome to join GoodByeSingle!You can find many friend
-                                here...</p>
-                        </div>
-                    </div>
-                    <div class="form-group" style="float: right">
-                        <label class="col-sm-10 control-label">2017.6.12</label>
-                        <div class="col-sm-10">
-                            <p class="form-control-static">by LeeeeoLiu</p>
+                            <p class="form-control-static" style="font-size: larger">by LeeeeoLiu</p>
                         </div>
                     </div>
                 </li>

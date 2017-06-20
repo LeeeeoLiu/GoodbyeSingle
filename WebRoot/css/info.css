@@ -9,5 +9,11 @@
     border: dashed 1px pink;
     margin-top: 10px;
     margin-bottom: 10px;
+    list-style: none;
+    width: 92%;
 }
 
+.friend_div,.stranger_div{
+    width: 92%;border: dashed 1px hotpink;height: 100%;padding: 10px
+
+}
