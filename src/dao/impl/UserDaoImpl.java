@@ -23,7 +23,7 @@ public class UserDaoImpl extends BaseDao implements UserDao {
 
         try {
             conn = super.getConn();
-            pst = conn.prepareStatement("select * from user where user_username = ? and user_password = ?");
+            pst = conn.prepareStatement("select * from user where user_loginname = ? and user_password = ?");
             pst.setString(1, User.getUserLoginName());
             pst.setString(2, User.getUserPassWord());
 

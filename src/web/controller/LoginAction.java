@@ -34,28 +34,35 @@ public class LoginAction extends HttpServlet {
         String method = request.getParameter("method");
 
         if ("logout".equals(method)) {
-
+            System.out.println("logout");
+            request.getSession().removeAttribute("userLoginName");
+            request.getSession().removeAttribute("loginUser");
+            response.sendRedirect(request.getContextPath() + "/homePage.jsp");
         }
 
         if ("login".equals(method)) {
-
-            String userName = request.getParameter("username");
+            System.out.println("login");
+            String userName = request.getParameter("login");
             String passWord = request.getParameter("password");
-
+//            System.out.println(userName);
+            System.out.println(passWord);
             User User = new User();
             User.setUserLoginName(userName);
             User.setUserPassWord(passWord);
-
+//
             UserDao userDao = new UserDaoImpl();
-
+//
             User = userDao.isLogin(User);
-
             if (User != null) {
                 request.getSession().setAttribute("loginUser", User);
-                request.getRequestDispatcher("/servlet/TopicListAction").forward(request, response);
+                request.getSession().setAttribute("userLoginName",userName);
+                request.getSession().removeAttribute("errorMessage");
+//                request.getRequestDispatcher("/servlet/TopicListAction").forward(request, response);
+                response.sendRedirect(request.getContextPath() + "/homePage.jsp");
 
             } else {
-                response.sendRedirect(request.getContextPath() + "/register.jsp");
+                request.getSession().setAttribute("errorMessage","login failed!");
+                response.sendRedirect(request.getContextPath() + "/login.jsp");
             }
         }
     }

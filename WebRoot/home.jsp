@@ -6,13 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8" %>
-<%@include file="common/header2.jsp"%>
+<%@include file="common/header.jsp" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <base href="<%=basePath%>">
 
     <title>My JSP 'index.jsp' starting page</title>
 
@@ -23,7 +22,7 @@
 <body>
 
 <div class="main">
-    欢迎，@<c:if test="${! empty userLoginName}"> ${userLoginName}</c:if>
+    欢迎，@<c:if test="${! empty userLoginName}"> ${userLoginName}</c:if>#
     <div class="texta">
         <form action="${pageContext.request.contextPath }/servlet/TopicAction" method="post">
             <textarea id="webtext" name="webtext" placeholder="说点什么吧..." name="webtext"></textarea>

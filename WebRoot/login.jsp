@@ -6,18 +6,20 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@include file="common/header.jsp"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <base href="<%=basePath%>">
-
     <title>登录页面</title>
-
     <link href="webstyle.css" rel="stylesheet">
 </head>
 
 <body class="logged-out env-production emoji-size-boost session-authentication page-responsive min-width-0">
+
+
+<h1><c:if test="${fn:length(errorMessage)!=0}">${errorMessage}</c:if></h1>
 <div class="position-relative js-header-wrapper ">
     <div class="header header-logged-out width-full pt-5 pb-4" role="banner">
         <div class="container clearfix width-full">
@@ -42,7 +44,7 @@
         <div class="auth-form px-3" id="login">
 
             <!-- '"` --><!-- </textarea></xmp> -->
-            <form accept-charset="UTF-8" action="https://github.com/session" method="post">
+            <form accept-charset="UTF-8" action="${pageContext.request.contextPath }/servlet/LoginAction?method=login" method="post">
                 <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input
                         name="authenticity_token" type="hidden"
                         value="QP6hOFfU0RjHFYTq3ZEAr3YQuDi1pmlSeetme7i+WGTa737IaEwgwh5ysfGSrijtk5XH8rZPgOC2q6169XCVmA==">

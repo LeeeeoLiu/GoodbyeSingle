@@ -6,10 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<%@include file="common/header2.jsp"%>
+<%@include file="common/header.jsp"%>
 <html>
 <head>
-    <base href="<%=basePath%>">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width">
     <link href="css/register3/frameworks-81a59bf26d881d29286674f6deefe779c444382fff322085b50ba455460ccae5.css" rel="stylesheet" type="text/css">

@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Leeeeo
-  Date: 2017/6/2
-  Time: 22:54
+  Date: 2017/6/20
+  Time: 01:38
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
@@ -38,7 +38,7 @@
         </a>
 
 
-        <div class="header-search   js-site-search" role="search">
+        <div class="header-search   js-site-search" role="search" style="width: 200px">
             <!-- '"` --><!-- </textarea></xmp> -->
             <form accept-charset="UTF-8" action="https://github.com/search" class="js-site-search-form"
                   data-unscoped-search-url="/search" method="get">
@@ -61,6 +61,8 @@
             <li class="header-nav-item"><a href="/recomm.jsp" class="js-selected-navigation-item header-nav-link">Recomm</a></li>
             <li class="header-nav-item"><a href="/mate.jsp" class="js-selected-navigation-item header-nav-link">Hunting</a></li>
             <li class="header-nav-item"><a href="/date.jsp" class="js-selected-navigation-item header-nav-link">Dating</a></li>
+            <li class="header-nav-item"><a href="/lovestory.jsp" class="js-selected-navigation-item header-nav-link">Examples</a></li>
+            <li class="header-nav-item"><a href="/about.jsp" class="js-selected-navigation-item header-nav-link">About Us</a></li>
         </ul>
 
 
@@ -76,23 +78,16 @@
 
             <li class="header-nav-item dropdown js-menu-container">
                 <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target"
-                   href="/info.jsp">Me
+                   href="/profile.jsp">Me
+                </a>
+            </li>
+
+            <li class="header-nav-item dropdown js-menu-container">
+                <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target"
+                   href="${pageContext.request.contextPath }/servlet/LoginAction?method=logout">Logout
                 </a>
             </li>
         </ul>
-
-
-        <!-- '"` --><!-- </textarea></xmp> -->
-        <form accept-charset="UTF-8" action="https://github.com/logout" class="sr-only right-0" method="post">
-            <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input
-                    name="authenticity_token" type="hidden"
-                    value="PliEWn7frTFG0RuSC5kRbNbY0I+Qw3JFgkX2e2IwoCGj/jObPjsFX2G4TOQX/ta2Sdew980A867w++PKgf7/ew==">
-            </div>
-            <button type="submit" class="dropdown-item dropdown-signout"
-                    data-ga-click="Header, sign out, icon:logout">
-                Sign out
-            </button>
-        </form>
     </div>
 </div>
 </body>
