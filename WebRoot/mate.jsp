@@ -22,19 +22,38 @@
         <div style="width: 80%;display: block;float: right">
             <form role="form">
                 <div class="form-group">
-                    <label>Gender</label>
-                    <select class="form-control" style="width: 100px;">
+                    <label class="form-control" style="width: 90px; margin-right: 10px;margin-left: 10px;" >Gender</label>
+                       <select class="form-control" style="width: 90px; margin-right: 20px;" name="age_select">
                         <option value="male">Male</option>
                         <option value="female">Female</option>
+                        <option value="all">all</option>
                     </select>
-                    <label>Age</label>
-                    <select class="form-control" style="width: 100px;" name="age_select">
+                    <label class="form-control" style="width: 90px; margin-right: 10px;">Age</label>
+                    <select class="form-control" style="width: 90px; margin-right: 20px;" name="age_select">
+                        <option value="18-22">18-24</option>
+                        <option value="22-26">22-26</option>
+                        <option value="26-30">26-30</option>
+                        <option value="30-34">30-34</option>
+                        <option value="34-38">34-38</option>
+                        <option value="38-42">38-42</option>
+                        <option value="42-50">42-50</option>
+						</select>
+                    <label class="form-control" style="width: 90px; margin-right: 10px;">Region</label>
+                    <select class="form-control" style="width: 90px; margin-right: 20px;" name="region_select">
+                        <option value="Hong Kong">Hong Kong</option>
+                        <option value="Macao">Macao</option>
+                        <option value="Tibet">Tibet</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="Beijing">Beijing</option>
+                        <option value="Fujian">Fujian</option>
+                        <option value="Anhui">Anhui</option>
+                        <option value="Guangdong">Guangdong</option>
+                        <option value="Hebei">Hebei</option>
+                        <option value="Liaoning">Liaoning</option>
+                        <option value="Shanghai">Shanghai</option>
                     </select>
-                    <label>Region</label>
-                    <select class="form-control" style="width: 100px;" name="region_select">
-                    </select>
-                    <label>Education</label>
-                    <select class="form-control" style="width: 100px;">
+                    <label class="form-control" style="width: 90px; margin-right: 10px;">Education</label>
+                    <select class="form-control" style="width: 90px; margin-right: 20px;">
                         <option value="primary">Primary School</option>
                         <option value="middle">Middle School</option>
                         <option value="high">High School</option>
@@ -44,23 +63,36 @@
                         <option value="master">Master Degree</option>
                         <option value="doctor">Doctor Degree</option>
                     </select>
-                    <label>Marital Status</label>
-                    <select class="form-control" style="width: 100px;">
+                    <label class="form-control" style="width: 90px; margin-left: 10px;margin-right: 10px;">Marital Status</label>
+                    <select class="form-control" style="width: 90px; margin-right: 25px;">
                         <option value="single">Single</option>
                         <option value="married">Married</option>
                         <option value="divorced">Divorced</option>
                     </select>
 
-                </div>
-                <div class="form-group">
-                    <label>Height</label>
-                    <select class="form-control" style="width: 100px;" name="height_select">
+                    <label class="form-control" style="width: 90px; margin-right: 10px;">Height</label>
+                    <select class="form-control" style="width: 90px; margin-right: 20px;" name="height_select">
+                        <option value="150-155">150-155</option>
+                        <option value="155-160">155-160</option>
+                        <option value="160-165">160-165</option>
+                        <option value="165-170">165-170</option>
+                        <option value="170-175">170-175</option>
+                        <option value="175-180">175-180</option>
+                        <option value="180-185">180-185</option>
+                        <option value="185-195">185-195</option>
                     </select>
-                    <label>Career</label>
-                    <select class="form-control" style="width: 100px" name="career_select">
+                    <label class="form-control" style="width: 90px; margin-right: 10px;"> Career</label>
+                    <select class="form-control" style="width: 90px; margin-right: 20px;" name="career_select">
+                        <option value="student">student</option>
+                        <option value="teacher">teacher</option>
+                        <option value="doctor">doctor</option>
+                        <option value="excutive">excutive</option>
+                        <option value="attorney">attorney</option>
+                        <option value="technical">technical</option>
+                        <option value="engineer">engineer</option>
                     </select>
-                    <label>Constellation</label>
-                    <select class="form-control" style="width: 100px;">
+                    <label class="form-control" style="width: 90px; margin-right: 10px;margin-left: 10px;"> Constellation</label>
+                    <select class="form-control" style="width: 106px; margin-right: 20px;">
                         <option value="Aquarius">Aquarius</option>
                         <option value="Pisces">Pisces</option>
                         <option value="Aries">Aries</option>
@@ -74,8 +106,8 @@
                         <option value="Sagittarius">Sagittarius</option>
                         <option value="Capricorn">Capricorn</option>
                     </select>
-                    <label>Monthly Salary</label>
-                    <select class="form-control" style="width: 100px;">
+                    <label class="form-control" style="width: 90px; margin-right: 10px;">Monthly Salary</label>
+                    <select class="form-control" style="width: 90px;">
                         <option value="1">Below 3000</option>
                         <option value="2">3000-5000</option>
                         <option value="3">5000-10000</option>
@@ -93,35 +125,35 @@
         </div>
         <div style="width: 80%;display: block;float: right">
             <div class="response-group">
-                <div class="form-checkbox" style="float: left;width: 15%">
+                <div class="form-checkbox" style="float: left;width: 30%">
                     <label for="answers_99_choice_466">
                         <input id="answers_99_choice_466" name="answers_99_choices_" type="checkbox"
                                value="466">
                         Good looks
 
                     </label></div>
-                <div class="form-checkbox" style="float: left;width: 15%">
+                <div class="form-checkbox" style="float: left;width: 30%">
                     <label for="answers_99_choice_468">
                         <input id="answers_99_choice_468" name="answers_99_choices_" type="checkbox"
                                value="468">
                         Good character
 
                     </label></div>
-                <div class="form-checkbox" style="float: left;width: 15%">
+                <div class="form-checkbox" style="float: left;width: 30%">
                     <label for="answers_99_choice_465">
                         <input id="answers_99_choice_465" name="answers_99_choices_" type="checkbox"
                                value="465">
                         Have a good job
 
                     </label></div>
-                <div class="form-checkbox" style="float: left;width: 15%">
+                <div class="form-checkbox" style="float: left;width: 30%">
                     <label for="answers_99_choice_464">
                         <input id="answers_99_choice_464" name="answers_99_choices_" type="checkbox"
                                value="464">
-                        Rich
+                        Rich   
 
                     </label></div>
-                <div class="form-checkbox" style="float: left;width: 15%">
+                <div class="form-checkbox" style="float: left;width: 30%">
                     <label for="answers_99_choice_467">
                         <input id="answers_99_choice_467" name="answers_99_choices_" type="checkbox"
                                value="467">
@@ -155,30 +187,30 @@
                 <a href="#"><img src="images/men2.jpeg" style="height: 300px"></a>
             </li>
             <li>
-                <a href="#"><img src="images/women1.jpeg" style="height: 300px"></a>
+                <a href="#"><img src="images/women3.jpeg" style="height: 300px"></a>
 
             </li>
             <li>
-                <a href="#"><img src="images/women2.jpeg" style="height: 300px"></a>
+                <a href="#"><img src="images/women4.jpg" style="height: 300px"></a>
             </li>
             <li>
-                <a href="#"><img src="images/men1.jpg" style="height: 300px"></a>
+                <a href="#"><img src="images/men3.jpg" style="height: 300px"></a>
             </li>
             <li>
-                <a href="#"><img src="images/men2.jpeg" style="height: 300px"></a>
+                <a href="#"><img src="images/men4.jpg" style="height: 300px"></a>
             </li>
             <li>
-                <a href="#"><img src="images/women1.jpeg" style="height: 300px"></a>
+                <a href="#"><img src="images/women5.jpg" style="height: 300px"></a>
 
             </li>
             <li>
-                <a href="#"><img src="images/women2.jpeg" style="height: 300px"></a>
+                <a href="#"><img src="images/women6.jpg" style="height: 300px"></a>
             </li>
             <li>
-                <a href="#"><img src="images/men1.jpg" style="height: 300px"></a>
+                <a href="#"><img src="images/men5.jpg" style="height: 300px"></a>
             </li>
             <li>
-                <a href="#"><img src="images/men2.jpeg" style="height: 300px"></a>
+                <a href="#"><img src="images/men6.jpg" style="height: 300px"></a>
             </li>
         </ul>
     </div>

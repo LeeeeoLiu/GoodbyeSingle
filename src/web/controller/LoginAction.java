@@ -58,7 +58,7 @@ public class LoginAction extends HttpServlet {
                 request.getSession().setAttribute("userLoginName",userName);
                 request.getSession().removeAttribute("errorMessage");
 //                request.getRequestDispatcher("/servlet/TopicListAction").forward(request, response);
-                response.sendRedirect(request.getContextPath() + "/homePage.jsp");
+                response.sendRedirect(request.getContextPath() + "/home_page.jsp");
 
             } else {
                 request.getSession().setAttribute("errorMessage","login failed!");

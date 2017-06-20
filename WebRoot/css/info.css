@@ -1,6 +1,7 @@
-#seen ul li, #friends ul li, #stranger ul li, #visitor ul li {
+#Section1 ul li, #friends ul li, #stranger ul li, #Section2 ul li {
     height: 150px;
     margin-top: 10px;
+    list-style:none;
 }
 
 #div5 ul li {

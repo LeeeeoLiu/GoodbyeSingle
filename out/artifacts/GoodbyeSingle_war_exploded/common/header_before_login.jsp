@@ -25,7 +25,7 @@
 <body>
 <header class="site-header js-details-container Details" role="banner">
     <div class="container-responsive">
-        <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage"
+        <a class="header-logo-invertocat" href="/home_page.jsp" aria-label="Homepage"
            data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
             <img src="images/logo.jpeg" height="32">
         </a>
@@ -41,7 +41,7 @@
 
         <div class="site-header-menu">
             <nav class="site-header-nav">
-                <a href="/homePage.jsp" class="js-selected-navigation-item nav-item">Homepage</a>
+                <a href="/home_page.jsp" class="js-selected-navigation-item nav-item">Homepage</a>
                 <a href="/recomm.jsp" class="js-selected-navigation-item nav-item">Recomm</a>
                 <a href="/mate.jsp" class="js-selected-navigation-item nav-item">Hunting</a>
                 <a href="/date.jsp" class="js-selected-navigation-item nav-item">Dating</a>

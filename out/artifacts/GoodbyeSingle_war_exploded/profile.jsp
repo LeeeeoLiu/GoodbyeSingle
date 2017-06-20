@@ -61,7 +61,7 @@
             <div id="myinfo">
                 <div class="container" style="width: auto">
                     <div id="nickname">
-                        <h1 class="nick-name"><c:if test="${true}">${requestScope.userInfo.user_name}</c:if></h1>
+                        <h1 class="nick-name"><c:if  test="${true}">${requestScope.userInfo.user_name}</c:if></h1>
                     </div>
                     <div id="myid">
                         <p>ID:0000018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popularity：300</p>
@@ -74,7 +74,8 @@
                         <table class="table-brief-info brief-info">
                             <tr>
                                 <td width="52%">
-                                    <span>Age：</span></br>
+                                    <span>Age：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_age}</c:if></br>
+
                                     <c:if test="${fn:length(update)!=0}"><input autocapitalize="off" autocorrect="off"
                                                                                 autofocus="autofocus" name="age"
                                                                                 tabindex="1" type="text"
@@ -82,7 +83,7 @@
                                     </c:if>
                                 </td>
                                 <td width="48%">
-                                    <span>Height：</span></br>
+                                    <span>Height：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_height}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="height"
@@ -93,7 +94,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <span>Nick Name：</span></br>
+                                    <span>Nick Name：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_nickname}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="nickname"
@@ -102,7 +103,7 @@
                                     </c:if>
                                 </td>
                                 <td>
-                                    <span>Weight：</span></br>
+                                    <span>Weight：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_weight}</c:if></br>
                                 <c:if test="${fn:length(update)!=0}">
                                     <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                            name="weight"
@@ -113,7 +114,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <span>Education Background：</span></br>
+                                    <span>Education Background：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_background}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="education"
@@ -122,7 +123,7 @@
                                     </c:if>
                                 </td>
                                 <td>
-                                    <span>Occupation：</span></br>
+                                    <span>Occupation：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_occupation}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="occupation"
@@ -133,7 +134,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <span>Country：</span></br>
+                                    <span>Country：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_country}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="country"
@@ -142,7 +143,7 @@
                                     </c:if>
                                 </td>
                                 <td>
-                                    <span>Living City：</span></br>
+                                    <span>Living City：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_living}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="living_city"
@@ -153,7 +154,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <span>Native Place：</span></br>
+                                    <span>Native Place：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_native}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="native_place"
@@ -162,7 +163,7 @@
                                     </c:if>
                                 </td>
                                 <td>
-                                    <span>Monthly Income：</span></br>
+                                    <span>Monthly Income：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_income}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <input autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="monthly_income"
@@ -173,8 +174,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <p><span>Dating Manifesto：</span></br>
-                                    </p>
+                                    <span>Dating Manifesto：</span><c:if test="${fn:length(update)==0}">${requestScope.userInfo.user_manifesto}</c:if></br>
                                     <c:if test="${fn:length(update)!=0}">
                                         <textarea autocapitalize="off" autocorrect="off" autofocus="autofocus"
                                                name="dating_manifesto"
