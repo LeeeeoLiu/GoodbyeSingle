@@ -22,24 +22,24 @@
 
 <body>
 <div id="container">
-    <div id="top">
+    <%--<div id="top">--%>
 
-        <div id="top-1"><h1>谷拜单身交友网<img src="images/logo.jpeg" width="150" height="40" id="logo" alt=""></h1></div>
-        <div id="top-2"><a href="#">通知</a>|<a href="#">我</a></div>
-        <div id="top-3">
-            <ul>
-                <li><a href="#">主页</a></li>
-                <li><a href="#">网站介绍</a></li>
-                <li><a href="#">推荐入门</a></li>
-                <li><a href="#">搜索</a></li>
-                <li><a href="#">约会</a></li>
-                <li><a href="#">成功故事</a></li>
-            </ul>
-        </div>
-        <div>
-            <img src="images/timg.jpg" width="1500" height="400"/></div>
+        <%--<div id="top-1"><h1>谷拜单身交友网<img src="images/logo.jpeg" width="150" height="40" id="logo" alt=""></h1></div>--%>
+        <%--<div id="top-2"><a href="#">通知</a>|<a href="#">我</a></div>--%>
+        <%--<div id="top-3">--%>
+            <%--<ul>--%>
+                <%--<li><a href="#">主页</a></li>--%>
+                <%--<li><a href="#">网站介绍</a></li>--%>
+                <%--<li><a href="#">推荐入门</a></li>--%>
+                <%--<li><a href="#">搜索</a></li>--%>
+                <%--<li><a href="#">约会</a></li>--%>
+                <%--<li><a href="#">成功故事</a></li>--%>
+            <%--</ul>--%>
+        <%--</div>--%>
+        <%--<div>--%>
+            <%--<img src="images/timg.jpg" width="1500" height="400"/></div>--%>
 
-    </div>
+    <%--</div>--%>
 
     <div id="main">
 

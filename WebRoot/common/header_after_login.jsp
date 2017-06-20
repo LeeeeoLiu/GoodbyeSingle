@@ -32,7 +32,7 @@
 <body>
 <div class="header" role="banner">
     <div class="container clearfix">
-        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage"
+        <a class="header-logo-invertocat" href="/home_page.jsp" data-hotkey="g d" aria-label="Homepage"
            data-ga-click="Header, go to dashboard, icon:logo">
             <img src="images/logo.jpeg" height="32">
         </a>
@@ -57,7 +57,7 @@
 
 
         <ul class="header-nav float-left" role="navigation">
-            <li class="header-nav-item"><a href="/homePage.jsp" class="js-selected-navigation-item header-nav-link">Homepage</a></li>
+            <li class="header-nav-item"><a href="/home_page.jsp" class="js-selected-navigation-item header-nav-link">Homepage</a></li>
             <li class="header-nav-item"><a href="/recomm.jsp" class="js-selected-navigation-item header-nav-link">Recomm</a></li>
             <li class="header-nav-item"><a href="/mate.jsp" class="js-selected-navigation-item header-nav-link">Hunting</a></li>
             <li class="header-nav-item"><a href="/date.jsp" class="js-selected-navigation-item header-nav-link">Dating</a></li>
