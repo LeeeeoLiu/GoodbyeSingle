@@ -43,7 +43,7 @@
 
         <div class="auth-form px-3">
             <!-- '"` --><!-- </textarea></xmp> -->
-            <form accept-charset="UTF-8" action="https://github.com/password_reset" id="forgot_password_form"
+            <form name="form1"  method="post" action="sendmail_to_user.jsp"
                   method="post">
                 <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input
                         name="authenticity_token" type="hidden"
@@ -58,8 +58,8 @@
                 <div class="auth-form-body mt-3">
                     <label for="email_field">Enter your email address and we will send you a link to reset your
                         password.</label>
-                    <input autofocus="autofocus" class="form-control input-block" id="email_field" name="email"
-                           type="text" value="1010820319@qq.com">
+                    <input  class="form-control input-block" id="to" name="to"
+                           type="text">
                     <input name="commit" type="submit" value="Send password reset email"
                            class="btn btn-primary btn-block">
                 </div>
