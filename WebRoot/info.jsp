@@ -200,214 +200,246 @@
             </div>
         </div>
         <div id="div2" style="display:none">
-            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px">
-                <img src="images/women1.jpeg" class="img-circle"
-                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px">
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Name:</label>
+            <div style="margin-top: 20px;border: dashed 2px grey;height: 200px;margin-left: 20px;padding-top: 20px;border-radius:13px;background:whitesmoke;">
+                <img src="images/woman3.jpg" class="img-circle"
+                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px;border: solid 5px SkyBlue;">
+                <div class="contan">
+                </div>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Name:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">Lucylalal</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Age:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Age:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">23</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Sex:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Sex:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">woman</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Profession:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Profession:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">teacher</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Location:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Location:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">shenyang</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary" style="float: left;margin: 10px">Have a look</button>
+                <button type="button" class="btn btn-primary"
+                        style="float: left;margin: 10px;background:BlueViolet;border:hidden;">Have a look
+                </button>
 
                 <!-- Indicates a successful or positive action -->
-                <button type="button" class="btn btn-success" style="float: left;margin: 10px">Chat</button>
+                <button type="button" class="btn btn-success"
+                        style="float: left;margin: 10px;background:DeepPink;border:hidden;">Chat
+                </button>
 
                 <!-- Contextual button for informational alert messages -->
-                <button type="button" class="btn btn-info" style="float: left;margin: 10px">Unfollow</button>
+                <button type="button" class="btn btn-info"
+                        style="float: left;margin: 10px;background:LawnGreen;border:hidden;">Unfollow
+                </button>
 
             </div>
-            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px">
-                <img src="images/women1.jpeg" class="img-circle"
-                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px">
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Name:</label>
+            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px;border: dashed 2px grey;background:whitesmoke;">
+                <img src="images/woman4.jpg" class="img-circle"
+                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px;border: solid 5px SkyBlue;">
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Name:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">Lilyaaaa</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Age:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Age:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">22</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Sex:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Sex:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">woman</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Profession:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Profession:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">doctor</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Location:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Location:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">beijing</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary" style="float: left;margin: 10px">Have a look</button>
+                <button type="button" class="btn btn-primary"
+                        style="float: left;margin: 10px;background:BlueViolet;border:hidden;">Have a look
+                </button>
 
                 <!-- Indicates a successful or positive action -->
-                <button type="button" class="btn btn-success" style="float: left;margin: 10px">Chat</button>
+                <button type="button" class="btn btn-success"
+                        style="float: left;margin: 10px;background:DeepPink;border:hidden;">Chat
+                </button>
 
                 <!-- Contextual button for informational alert messages -->
-                <button type="button" class="btn btn-info" style="float: left;margin: 10px">Unfollow</button>
+                <button type="button" class="btn btn-info"
+                        style="float: left;margin: 10px;background:LawnGreen;border:hidden;">Unfollow
+                </button>
 
             </div>
-            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px">
-                <img src="images/women1.jpeg" class="img-circle"
-                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px">
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Name:</label>
+            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px;border: dashed 2px grey;background:whitesmoke;">
+                <img src="images/man2.jpg" class="img-circle"
+                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px;border: solid 5px SkyBlue;">
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Name:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">Abbyqqqqq</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Age:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Age:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">26</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Sex:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Sex:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">man</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Profession:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Profession:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">driver</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Location:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Location:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">tianjing</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary" style="float: left;margin: 10px">Have a look</button>
+                <button type="button" class="btn btn-primary"
+                        style="float: left;margin: 10px;background:BlueViolet;border:hidden;">Have a look
+                </button>
 
                 <!-- Indicates a successful or positive action -->
-                <button type="button" class="btn btn-success" style="float: left;margin: 10px">Chat</button>
+                <button type="button" class="btn btn-success"
+                        style="float: left;margin: 10px;background:DeepPink;border:hidden;">Chat
+                </button>
 
                 <!-- Contextual button for informational alert messages -->
-                <button type="button" class="btn btn-info" style="float: left;margin: 10px">Unfollow</button>
+                <button type="button" class="btn btn-info"
+                        style="float: left;margin: 10px;background:LawnGreen;border:hidden;">Unfollow
+                </button>
 
             </div>
-            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px">
-                <img src="images/women1.jpeg" class="img-circle"
-                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px">
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Name:</label>
+            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px;border: dashed 2px grey;background:whitesmoke;">
+                <img src="images/man1.jpg" class="img-circle"
+                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px;border: solid 5px SkyBlue;">
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Name:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">Amberzzzzzz</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Age:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Age:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">29</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Sex:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Sex:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">man</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Profession:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Profession:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">journalist</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Location:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Location:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">xi'an</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary" style="float: left;margin: 10px">Have a look</button>
+                <button type="button" class="btn btn-primary"
+                        style="float: left;margin: 10px;background:BlueViolet;border:hidden;">Have a look
+                </button>
 
                 <!-- Indicates a successful or positive action -->
-                <button type="button" class="btn btn-success" style="float: left;margin: 10px">Chat</button>
+                <button type="button" class="btn btn-success"
+                        style="float: left;margin: 10px;background:DeepPink;border:hidden;">Chat
+                </button>
 
                 <!-- Contextual button for informational alert messages -->
-                <button type="button" class="btn btn-info" style="float: left;margin: 10px">Unfollow</button>
+                <button type="button" class="btn btn-info"
+                        style="float: left;margin: 10px;background:LawnGreen;border:hidden;">Unfollow
+                </button>
 
             </div>
-            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px">
-                <img src="images/women1.jpeg" class="img-circle"
-                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px">
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Name:</label>
+            <div style="margin-top: 20px;border: dashed 1px hotpink;height: 200px;margin-left: 20px;padding-top: 20px;border: dashed 2px grey;background:whitesmoke;">
+                <img src="images/woman5.jpg" class="img-circle"
+                     style="height: 150px;width:150px;float: left;margin-left: 50px;margin-right: 50px;border: solid 5px SkyBlue;">
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Name:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">Ellassssss</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Age:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Age:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">28</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Sex:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Sex:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">woman</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Profession:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Profession:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">designer</p>
                     </div>
                 </div>
-                <div class="form-group" style="float: left">
-                    <label class="col-sm-5 control-label">Location:</label>
+                <div class="form-group" style="float: left;color:Navy;">
+                    <label class="col-sm-10 control-label">Location:</label>
                     <div class="col-sm-10">
-                        <p class="form-control-static">email@example.com</p>
+                        <p class="form-control-static">luoyang</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary" style="float: left;margin: 10px">Have a look</button>
+                <button type="button" class="btn btn-primary"
+                        style="float: left;margin: 10px;background:BlueViolet;border:hidden;">Have a look
+                </button>
 
                 <!-- Indicates a successful or positive action -->
-                <button type="button" class="btn btn-success" style="float: left;margin: 10px">Chat</button>
+                <button type="button" class="btn btn-success"
+                        style="float: left;margin: 10px;background:DeepPink;border:hidden;">Chat
+                </button>
 
                 <!-- Contextual button for informational alert messages -->
-                <button type="button" class="btn btn-info" style="float: left;margin: 10px">Unfollow</button>
+                <button type="button" class="btn btn-info"
+                        style="float: left;margin: 10px;background:LawnGreen;border:hidden;">Unfollow
+                </button>
 
             </div>
         </div>
@@ -536,7 +568,7 @@
                             </div>
                         </li>
                         <li>
-                            <div  class="stranger_div">
+                            <div class="stranger_div">
                                 <img src="images/aboutus/1.jpg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -554,7 +586,7 @@
                             </div>
                         </li>
                         <li>
-                            <div  class="stranger_div">
+                            <div class="stranger_div">
                                 <img src="images/aboutus/LokeZhou.jpg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -572,7 +604,7 @@
                             </div>
                         </li>
                         <li>
-                            <div  class="stranger_div">
+                            <div class="stranger_div">
                                 <img src="images/men1.jpg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -590,7 +622,7 @@
                             </div>
                         </li>
                         <li>
-                            <div  class="stranger_div">
+                            <div class="stranger_div">
                                 <img src="images/men2.jpeg" style="width: 100px;height: 100px;float: left"
                                      class="img-circle">
                                 <div class="form-group" style="float: left">
@@ -736,9 +768,11 @@
             <ul style="padding-left: 70px">
                 <li>
                     <div class="form-group" style="float: left">
-                        <label class="col-sm-10 control-label" style="font-size: larger">Protect your privacy information!</label>
+                        <label class="col-sm-10 control-label" style="font-size: larger">Protect your privacy
+                            information!</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static">Please don't tell others about your true identity information...</p>
+                            <p class="form-control-static">Please don't tell others about your true identity
+                                information...</p>
                         </div>
                     </div>
                     <div class="form-group" style="float: right">
