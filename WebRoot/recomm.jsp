@@ -41,7 +41,7 @@
     		<span class="line"></span>
     			<div class="blog-post">
                     <h2>How to attract the attention of girls?</h2>
-                    <h4>Posted by <a href="#">admin</a> on 24th January 2015 </h4>
+                    <h4>Posted by <a href="#">admin</a> on 12th January 2017 </h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
@@ -51,22 +51,21 @@ Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
                 </div>
                 
                 <div class="blog-post">
-                    <h2>How to attract the attention of girls?</h2>
-                    <h4>Posted by <a href="#">admin</a> on 24th January 2015 </h4>
+                    <h2>In love, being stupid is the vision of a wise man</h2>
+                    <h4>Posted by <a href="#">Loke</a> on 11th January 2017 </h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        You can't look at the present with your old mind, 
+                        just as you can't see the future with your current thinking
                     </p>
                     <a href="#" class="btn btn-default btn-lg ">Read More <i class="fa fa-angle-right"></i></a>
                 </div>
                 <div class="blog-post">
-                    <h2>How to attract the attention of girls?</h2>
-                    <h4>Posted by <a href="#">admin</a> on 24th January 2015 </h4>
+                    <h2>Love is not waiting, it is unsolicited!</h2>
+                    <h4>Posted by <a href="#">young</a> on 9th January 2017 </h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Being in love doesn't bring you a person who can be there for you at any time,
+                         but gives you a person who can make you happy, someone who CARES for you,
+                          but you have to make it possible for you to be separated.
                     </p>
                     <a href="#" class="btn btn-default btn-lg ">Read More <i class="fa fa-angle-right"></i></a>
                 </div>
@@ -76,36 +75,36 @@ Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
 				<div class="row">
                 <h3> Hot Topic</h3>
                 <ul class="list-group">
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
+                    <li class="list-group-item"><a>The most beautiful girl in shenyang</a></li>
+                    <li class="list-group-item"><a>ZhangJie Xiena first appearance after being divorced</a></li>
+                    <li class="list-group-item"><a>Are You Ready?</a></li>
+                    <li class="list-group-item"><a>YangMi and FengShaofeng with the box!</a></li>
+                    <li class="list-group-item"><a>Beauty in XinJiang compete</a></li>
+                    <li class="list-group-item"><a>The son-in-law and daughter-in-law eloped</a></li>
+                    <li class="list-group-item"><a>Do you believe in love at first sight?</a></li>
+                    <li class="list-group-item"><a>Will my marriage be a copy of my parents' marriage?</a></li>
                 </ul>
 				</div>
 				<div class="row">
                 <h3> Taste Test</h3>
                 <ul class="list-group">
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
+                    <li class="list-group-item"><a>Coffee tea language</a></li>
+                    <li class="list-group-item"><a>outdoor recreation</a></li>
+                    <li class="list-group-item"><a>Hiking trip</a></li>
+                    <li class="list-group-item"><a>City Friends</a></li>
+                    <li class="list-group-item"><a>artistic performance</a></li>
+                    <li class="list-group-item"><a>see a movie</a></li>
+                    <li class="list-group-item"><a>Bubble!</a></li>
+                    <li class="list-group-item"><a>karaoke</a></li>
                 </ul>
 				</div>
 				<div class="row">
 				<h3> Advertisement</h3>
                 <ul class="list-group">
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
-                    <li class="list-group-item"><a>Dapibus ac facilisis in</a></li>
+                    <li class="list-group-item"><a>58 city</a></li>
+                    <li class="list-group-item"><a>Jiayuan.com</a></li>
+                    <li class="list-group-item"><a>If You Are the One</a></li>
+                    <li class="list-group-item"><a>Zhenai.com</a></li>
                  
                 </ul>	
 				</div>
