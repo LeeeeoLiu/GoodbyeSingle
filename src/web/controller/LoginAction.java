@@ -36,7 +36,7 @@ public class LoginAction extends HttpServlet {
             System.out.println("logout");
             request.getSession().removeAttribute("userLoginName");
             request.getSession().removeAttribute("loginUser");
-            response.sendRedirect(request.getContextPath() + "/homePage.jsp");
+            response.sendRedirect(request.getContextPath() + "/home_page.jsp");
         }
 
         if ("login".equals(method)) {

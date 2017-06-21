@@ -42,7 +42,7 @@
                 <!-- 轮播（Carousel）项目 -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="images/women1.jpeg" alt="First slide" class="myphoto-type">
+                        <img src="images/Leeeeo.png" alt="First slide" class="myphoto-type">
                     </div>
                     <div class="item">
                         <img src="images/women2.jpeg" alt="Second slide" class="myphoto-type">
@@ -64,7 +64,7 @@
                         <h1 class="nick-name"><c:if  test="${true}">${requestScope.userInfo.user_name}</c:if></h1>
                     </div>
                     <div id="myid">
-                        <p>ID:0000018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popularity：300</p>
+                        <p>ID:20143714 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; popularity：300</p>
                     </div>
                     <div style="float: right;">
                         <a href="${pageContext.request.contextPath }/servlet/UpdateProfileAction">Edit infomation</a>
