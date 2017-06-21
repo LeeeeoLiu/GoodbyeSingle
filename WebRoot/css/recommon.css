@@ -3,7 +3,7 @@
 
 #header {
     background-color: #0C739B;
-     background: url(images/cover_recommon.jpg) no-repeat center center;
+     background: url(../images/cover_recommon.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
