@@ -160,5 +160,6 @@
         </div>
     </div>	
 </body>
- 
+  <%@include file="common/footer.jsp"%>
+
 </html>

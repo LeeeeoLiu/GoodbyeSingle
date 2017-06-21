@@ -193,5 +193,6 @@
 </div>
 </form>
 </body>
+<%@include file="common/footer.jsp"%>
 
 </html>

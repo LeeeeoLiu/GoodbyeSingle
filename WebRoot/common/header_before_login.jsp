@@ -20,10 +20,10 @@
     <link href="css/join/frameworks-81a59bf26d881d29286674f6deefe779c444382fff322085b50ba455460ccae5.css" type="text/css" rel="stylesheet">
     <link href="css/join/github-87d822aa41a2e50fc4a176f81e161236c98e01a8a4e8258b55acdeab81d58d35.css" type="text/css" rel="stylesheet">
     <link href="css/join/site-305da239d9594c987edb45691bee8e64ab6e76c2649f5f82dc9eaa49b5e4ed50.css" type="text/css" rel="stylesheet">
-    <title>Join GoodBye Single Single</title>
+    <%--<title>Join GoodBye Single Single</title>--%>
 </head>
 <body>
-<header class="site-header js-details-container Details" role="banner">
+<header class="site-header js-details-container Details" role="banner" style="height: 70px;">
     <div class="container-responsive">
         <a class="header-logo-invertocat" href="/home_page.jsp" aria-label="Homepage"
            data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
@@ -57,7 +57,7 @@
                           data-unscoped-search-url="/search" method="get">
                         <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓">
                         </div>
-                        <label class="form-control header-search-wrapper js-chromeless-input-container">
+                        <label class="form-control header-search-wrapper js-chromeless-input-container" style="padding: 0">
                             <a href="https://github.com/join" class="header-search-scope no-underline">/join</a>
                             <input type="text" class="form-control header-search-input js-site-search-focus "
                                    data-hotkey="s" name="q" value="" placeholder="Search GoodBye Single"

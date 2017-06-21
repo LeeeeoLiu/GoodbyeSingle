@@ -12,7 +12,7 @@
 
 <html>
 <head>
-    <title>Title</title>
+    <title>GoodBye Single</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.png">

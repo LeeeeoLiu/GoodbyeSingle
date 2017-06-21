@@ -64,7 +64,7 @@ public class RegisterFinalAction extends HttpServlet {
         UpdateFinalDao updateFinalDao = new UpdateFinalDaoImpl();
         boolean update = updateFinalDao.isUpdateDao(user);
         if (update == true) {
-            request.getRequestDispatcher("/home.jsp").forward(request, response);
+            request.getRequestDispatcher("/home_page.jsp").forward(request, response);
         } else {
             response.sendRedirect(request.getContextPath() + "/register.jsp");
         }

@@ -21,6 +21,7 @@
 
 </head>
 <body>
+<form name="form1"  method="post" action="sendMail.jsp">
 <div class="head">
     <!--<div class="container">
         <img src="img/about.png" alt="header" class="img-responsive">
@@ -176,16 +177,11 @@
                     </div>
                     <div class="contact-form">
                         <div class="text">
-                            <input type="text" value="Your Name.." onfocus="this.value = '';"
-                                   onblur="if (this.value == '') {this.value = 'Your Name..';}"/>
+                            <input name="title" type="text" id="title" value="Your Name.."/>
                         </div>
+                        
                         <div class="text">
-                            <input type="text" value="Your Email.." onfocus="this.value = '';"
-                                   onblur="if (this.value == '') {this.value = 'Your Email..';}"/>
-                        </div>
-                        <div class="text">
-                            <textarea value="Message:" onfocus="this.value = '';"
-                                      onblur="if (this.value == '') {this.value = 'Message';}">Your Message..</textarea>
+                            <textarea name="content" id="content" >Your Message..</textarea>
                         </div>
                         <div class="text">
                             <input type="submit" value="Submit"/>
@@ -195,6 +191,8 @@
         </div>
     </div>
 </div>
+</form>
 </body>
+<%@include file="common/footer.jsp"%>
 
 </html>

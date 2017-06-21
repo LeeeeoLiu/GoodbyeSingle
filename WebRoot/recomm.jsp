@@ -111,6 +111,11 @@ Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
             </div>
     	</div>
     </div>
+
+
+
+    <%--<%@include file="common/footer.jsp"%>--%>
+
 </body>
 </html>
 

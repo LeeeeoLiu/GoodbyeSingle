@@ -30,7 +30,7 @@
           rel="stylesheet">
 </head>
 <body>
-<div class="header" role="banner">
+<div class="header" role="banner" style="height: 70px;">
     <div class="container clearfix">
         <a class="header-logo-invertocat" href="/home_page.jsp" data-hotkey="g d" aria-label="Homepage"
            data-ga-click="Header, go to dashboard, icon:logo">
@@ -43,7 +43,7 @@
             <form accept-charset="UTF-8" action="https://github.com/search" class="js-site-search-form"
                   data-unscoped-search-url="/search" method="get">
                 <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
-                <label class="form-control header-search-wrapper js-chromeless-input-container">
+                <label class="form-control header-search-wrapper js-chromeless-input-container" style="padding: 0">
                     <a href="https://github.com/join/plan" class="header-search-scope no-underline">/join/plan</a>
                     <input type="text" class="form-control header-search-input js-site-search-focus "
                            data-hotkey="s" name="q" value="" placeholder="Search GoodBye Single"

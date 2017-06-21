@@ -30,7 +30,7 @@ public class ShowProfileAction extends HttpServlet {
         request.setAttribute("userInfo", userInfo);
         System.out.println(userInfo.getUser_name());
 
-        request.getRequestDispatcher("/profile.jsp").forward(request, response);
-//        response.sendRedirect(request.getContextPath() + "/profile.jsp");
+//        request.getRequestDispatcher("/profile.jsp").forward(request, response);
+        response.sendRedirect(request.getContextPath() + "/profile.jsp");
     }
 }
