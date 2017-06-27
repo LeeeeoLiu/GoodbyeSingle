@@ -32,9 +32,4 @@
 |fengbluesun|前端美工|王晋瑶|20143733|
 |Shengred|前端实现|盛红|20144623|
 
-####项目地址
-https://github.com/LeeeeoLiu/GoodbyeSingle
-
-#### 最后
-时间紧，任务重，所以功能还没有完全实现，希望老师能给个不错的分数，谢谢！
 
