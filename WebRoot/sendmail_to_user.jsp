@@ -53,7 +53,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    %>
    <div align="center">
    <p>邮件发送成功</p>
-    <li><a href="home.jsp" >返回首页</a></li>  
+    <li><a href="home_page.jsp" >返回首页</a></li>
    </div>
    <% 
    }catch(MessagingException e)

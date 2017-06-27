@@ -167,7 +167,7 @@
                         </div>
                         <div class="col-md-4 contact-column">
                             <i class="mail"></i>
-                            <p><a href="mailto:example@gmail.com">GoodbyeSingle@gmail.com</a></p>
+                            <p><a href="mailto:example@gmail.com">1010820319@qq.com</a></p>
                         </div>
                         <div class="col-md-4 contact-column">
                             <i class="phone"></i>

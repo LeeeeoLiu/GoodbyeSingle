@@ -993,7 +993,7 @@
                         <input class="btn btn-primary" data-disable-with="Submitting..."
                                data-ga-click="User identification, survey submit" name="commit" type="submit"
                                value="Submit">
-                        <a href="/home.jsp" class="alternate-action"
+                        <a href="/home_page.jsp" class="alternate-action"
                            data-ga-click="User identification, survey skip">skip this step</a>
 
                     </form>
